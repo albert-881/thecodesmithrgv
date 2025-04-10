@@ -7,8 +7,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
+
+  <!-- Add Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS CDN for animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    document.addEventListener('DOMContentLoaded', () => {
+      AOS.init({
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: true,  // Only animate once when they appear
+      });
+    });
+  </script>
 </head>
-<body>
+<body class="font-poppins">
 
   <section class="showcase">
     <header>
@@ -40,28 +57,29 @@
     </ul>
   </div>
 
-  <!-- New Content Sections -->
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I'm a developer passionate about building custom software solutions for local businesses. Let’s work together to make your ideas a reality.</p>
-  </section>
+<!-- New Content Sections with Tailwind classes and AOS animations -->
+<section class="about py-12 px-6 bg-gray-900" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold text-center mb-4 text-white">About Me</h2>
+  <p class="text-lg text-center max-w-2xl mx-auto text-gray-300">I'm a developer passionate about building custom software solutions for local businesses. Let’s work together to make your ideas a reality.</p>
+</section>
 
-  <section class="projects">
-    <h2>My Projects</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>Description of project 1.</p>
-    </div>
-    <div class="project">
-      <h3>Project 2</h3>
-      <p>Description of project 2.</p>
-    </div>
-  </section>
+<section class="projects py-12 px-6 bg-slate-800" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold text-center mb-8 text-white">My Projects</h2>
+  <div class="project mb-8" data-aos="zoom-in" data-aos-delay="200">
+    <h3 class="text-xl font-bold text-indigo-400">Project 1</h3>
+    <p class="text-gray-300">Description of project 1.</p>
+  </div>
+  <div class="project mb-8" data-aos="zoom-in" data-aos-delay="400">
+    <h3 class="text-xl font-bold text-indigo-400">Project 2</h3>
+    <p class="text-gray-300">Description of project 2.</p>
+  </div>
+</section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-    <p>If you're ready to start building something amazing, <a href="mailto:thecodesmithrgv@example.com">reach out</a>!</p>
-  </section>
-  
+<section class="contact py-12 px-6 bg-gray-900" data-aos="fade-up">
+  <h2 class="text-3xl font-semibold text-center mb-4 text-white">Contact</h2>
+  <p class="text-lg text-center max-w-2xl mx-auto text-gray-300">If you're ready to start building something amazing, <a href="mailto:thecodesmithrgv@example.com" class="text-teal-400 hover:text-teal-300 hover:underline">reach out</a>!</p>
+</section>
+
+
 </body>
 </html>
