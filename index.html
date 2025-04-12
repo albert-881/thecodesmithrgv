@@ -50,7 +50,7 @@
   <div class="menu">
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Projects</a></li>
+      <li><a href="#">Services</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
@@ -63,25 +63,43 @@
       <p class="text-lg text-gray-300">I’m passionate about building custom software solutions that help local businesses grow. With a focus on simplicity and effectiveness, I bring your ideas to life with tools that save time and solve real problems. Let’s create something great together!</p>
     </div>
   </section>
+
+  <section class="services py-12 px-6 bg-slate-800" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold text-center mb-8 text-white">Services I Offer</h2>
+    <div class="service mb-8" data-aos="zoom-in" data-aos-delay="200">
+      <h3 class="text-xl font-bold text-indigo-400">Custom Software Development</h3>
+      <p class="text-gray-300">Tailored software solutions that simplify processes and improve efficiency for your business.</p>
+    </div>
+    <div class="service mb-8" data-aos="zoom-in" data-aos-delay="400">
+      <h3 class="text-xl font-bold text-indigo-400">Website Development</h3>
+      <p class="text-gray-300">Build responsive and user-friendly websites that align with your brand and business goals.</p>
+    </div>
+    <div class="service mb-8" data-aos="zoom-in" data-aos-delay="800">
+      <h3 class="text-xl font-bold text-indigo-400">Ongoing Support & Maintenance</h3>
+      <p class="text-gray-300">Ensure your software and websites continue running smoothly with regular updates and troubleshooting.</p>
+    </div>
+  </section>
+
+  <section class="contact py-12 px-6 bg-gray-900" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold text-center mb-4 text-white">Contact</h2>
+    <p class="text-lg text-center max-w-2xl mx-auto text-gray-300 mb-8">Let me know what you need help with. I’ll get back to you as soon as I can!</p>
+    
+    <form action="https://formspree.io/f/xovervqo" method="POST" class="max-w-xl mx-auto bg-gray-800 p-6 rounded-xl shadow-md space-y-4">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-200">Name</label>
+        <input type="text" id="name" name="name" required class="mt-1 w-full p-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-indigo-400"/>
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-200">Email</label>
+        <input type="email" id="email" name="_replyto" required class="mt-1 w-full p-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-indigo-400"/>
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-200">Message</label>
+        <textarea id="message" name="message" rows="4" required class="mt-1 w-full p-2 rounded-lg bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-indigo-400"></textarea>
+      </div>
+      <button type="submit" class="w-full bg-indigo-500 hover:bg-indigo-400 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">Send Message</button>
+    </form>
+  </section>
   
-  
-<section class="projects py-12 px-6 bg-slate-800" data-aos="fade-up">
-  <h2 class="text-3xl font-semibold text-center mb-8 text-white">My Projects</h2>
-  <div class="project mb-8" data-aos="zoom-in" data-aos-delay="200">
-    <h3 class="text-xl font-bold text-indigo-400">Project 1</h3>
-    <p class="text-gray-300">Description of project 1.</p>
-  </div>
-  <div class="project mb-8" data-aos="zoom-in" data-aos-delay="400">
-    <h3 class="text-xl font-bold text-indigo-400">Project 2</h3>
-    <p class="text-gray-300">Description of project 2.</p>
-  </div>
-</section>
-
-<section class="contact py-12 px-6 bg-gray-900" data-aos="fade-up">
-  <h2 class="text-3xl font-semibold text-center mb-4 text-white">Contact</h2>
-  <p class="text-lg text-center max-w-2xl mx-auto text-gray-300">If you're ready to start building something amazing, <a href="mailto:thecodesmithrgv@example.com" class="text-teal-400 hover:text-teal-300 hover:underline">reach out</a>!</p>
-</section>
-
-
 </body>
 </html>
