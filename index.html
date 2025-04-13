@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,7 +38,7 @@
     <div class="text">
       <h2>Simple Software for your Small Business</h2>
       <p>I’m a local developer from the RGV, helping businesses with custom, time-saving tools. No jargon, just real solutions.</p>
-      <a href="https://www.instagram.com/thecodesmithrgv/" target="_blank">Let’s Talk</a>
+      <a href="#contact">Let’s Talk</a>
     </div>
     
 
@@ -49,14 +49,15 @@
 
   <div class="menu">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#templates">Templates</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 
-  <section class="about py-12 px-6 bg-gray-900" data-aos="fade-up">
+  <section id="about" class="about py-12 px-6 bg-gray-900" data-aos="fade-up">
     <h2 class="text-3xl font-semibold text-center mb-4 text-white">About Me</h2>
     <div class="max-w-2xl mx-auto text-center">
       <img src="Portrait-7.jpg" alt="Your Name" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
@@ -64,7 +65,8 @@
     </div>
   </section>
 
-  <section class="services py-12 px-6 bg-slate-800" data-aos="fade-up">
+
+  <section id="services" class="services py-12 px-6 bg-slate-800" data-aos="fade-up">
     <h2 class="text-3xl font-semibold text-center mb-8 text-white">Services I Offer</h2>
     <div class="service mb-8" data-aos="zoom-in" data-aos-delay="200">
       <h3 class="text-xl font-bold text-indigo-400">Custom Software Development</h3>
@@ -80,7 +82,65 @@
     </div>
   </section>
 
-  <section class="contact py-12 px-6 bg-gray-900" data-aos="fade-up">
+  <section id="templates" class="templates py-12 px-6 bg-slate-800" data-aos="fade-up">
+    <h2 class="text-3xl font-semibold text-center mb-8 text-white">Template Demos</h2>
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+  
+      <!-- Template Card 1 -->
+      <a href="https://albert-881.github.io/SampleBookingTemplate/" target="_blank"
+         class="group block bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out"
+         data-aos="fade-up" data-aos-delay="100">
+         
+        <img src="sstemplate.png" alt="Booking Template Preview" class="w-full h-48 object-contain object-center bg-slate-700">
+  
+        <div class="p-4 transition-all duration-500 ease-in-out group-hover:-translate-y-1 group-hover:opacity-100 opacity-90">
+          <h3 class="text-xl font-bold text-white mb-2 group-hover:text-teal-300 transition-colors duration-300">Booking Template (click to view demo)</h3>
+          <p class="text-gray-300 text-sm">
+            A sleek, mobile-friendly booking system built for catering businesses. Clients can schedule events, choose packages, and get instant confirmation. Admins get a simple dashboard to manage everything with ease.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="mt-12 text-center text-white">
+      <h3 class="text-4xl font-semibold text-teal-400 mb-6" data-aos="fade-up" data-aos-duration="1200">How It Works</h3>
+      <p class="text-lg text-gray-300 mb-8 max-w-xl mx-auto" data-aos="fade-up" data-aos-duration="1500">Quick, simple, and tailored to your business:</p>
+      <div class="space-y-8">
+          <div class="flex items-start space-x-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+              <div class="w-12 h-12 rounded-full bg-teal-500 text-white flex items-center justify-center font-semibold transform transition-all duration-500 hover:scale-125 hover:bg-teal-600">
+                  1
+              </div>
+              <p class="text-lg text-gray-300">Pick a template that fits your business.</p>
+          </div>
+          <div class="flex items-start space-x-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+              <div class="w-12 h-12 rounded-full bg-teal-500 text-white flex items-center justify-center font-semibold transform transition-all duration-500 hover:scale-125 hover:bg-teal-600">
+                  2
+              </div>
+              <p class="text-lg text-gray-300">I’ll customize it with your branding and content.</p>
+          </div>
+          <div class="flex items-start space-x-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">
+              <div class="w-12 h-12 rounded-full bg-teal-500 text-white flex items-center justify-center font-semibold transform transition-all duration-500 hover:scale-125 hover:bg-teal-600">
+                  3
+              </div>
+              <p class="text-lg text-gray-300">Get a fully functional, mobile-ready system.</p>
+          </div>
+          <div class="flex items-start space-x-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">
+              <div class="w-12 h-12 rounded-full bg-teal-500 text-white flex items-center justify-center font-semibold transform transition-all duration-500 hover:scale-125 hover:bg-teal-600">
+                  4
+              </div>
+              <p class="text-lg text-gray-300">Need custom features? We’ll discuss options and pricing.</p>
+          </div>
+      </div>
+      <p class="mt-8 text-lg text-gray-300 max-w-xl mx-auto" data-aos="fade-up" data-aos-duration="1200">For fully custom systems, additional time and cost may apply based on your needs. Let’s build something unique!</p>
+  </div>
+  
+</section>
+
+  
+  
+  
+
+  <section id="contact" class="contact py-12 px-6 bg-gray-900" data-aos="fade-up">
     <h2 class="text-3xl font-semibold text-center mb-4 text-white">Contact</h2>
     <p class="text-lg text-center max-w-2xl mx-auto text-gray-300 mb-8">Let me know what you need help with. I’ll get back to you as soon as I can!</p>
     
