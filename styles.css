@@ -245,7 +245,7 @@ header .logo {
   animation: fadeInUp 1s ease-out;
 }
 .showcase img {
-  opacity: .2;
+  opacity: .1;
 }
 @media (max-width: 991px) {
   .showcase,
