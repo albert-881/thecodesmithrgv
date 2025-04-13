@@ -238,7 +238,7 @@ header .logo {
   animation: fadeInUp 2.5s ease forwards;
   animation-delay: 0.5s;
 }
-.text a:hover {
+.text a {
   animation: pulseGlow 1.2s infinite;
 }
 header .logo {
