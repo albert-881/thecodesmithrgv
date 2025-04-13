@@ -31,7 +31,7 @@ header .logo {
   position: relative;
   width: 60px;
   height: 60px;
-  background-color: white;
+  margin-top: 25px;
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
@@ -39,7 +39,7 @@ header .logo {
 }
 
 .toggle.active {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
+  
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -73,7 +73,9 @@ header .logo {
   object-fit: cover;
   opacity: 0.07;
 }
-
+.showcase .text h2 {
+  color:#1ABC9C;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -165,6 +167,7 @@ header .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:#1ABC9C;
 }
 
 .menu ul {
@@ -182,7 +185,7 @@ header .logo {
 }
 
 .menu ul li a:hover {
-  color: #03a9f4; 
+  color: white;
 }
 /* Key Animations */
 @keyframes fadeInUp {

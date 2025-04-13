@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Add Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -30,7 +31,10 @@
   <section class="showcase">
     <header>
       <h2 class="logo">The Code Smith RGV</h2>
-      <div class="toggle"></div>
+      <div class="toggle text-white text-2xl cursor-pointer z-50">
+        <i class="fas fa-bars" id="menu-icon"></i>
+      </div>
+      
     </header>
 
     <video src="13382540_1920_1080_30fps.mp4" muted loop autoplay playsinline></video>
@@ -49,7 +53,7 @@
 
   <div class="menu">
     <ul>
-      <li><a href="#home">Home</a></li>
+      
       <li><a href="#services">Services</a></li>
       <li><a href="#templates">Templates</a></li>
       <li><a href="#about">About</a></li>
