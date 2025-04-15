@@ -21,44 +21,104 @@
     });
   </script>
 </head>
-<body class="font-inter bg-white text-gray-800">
+<body class="font-[DM Serif Text] bg-[#f9f6f2] text-[#3a2e2e] text-lg leading-relaxed">
 
-  <header class="flex justify-between items-center py-6 px-6 shadow-md sticky top-0 bg-white z-50">
-    <h2 class="text-2xl font-semibold">The Code Smith RGV</h2>
-    <div class="text-2xl cursor-pointer">
-      <i class="fas fa-bars" id="menu-icon"></i>
-    </div>
-  </header>
 
-<!-- Carousel Moving Text Section -->
-<section class="relative py-8 bg-gradient-to-r from-brown-800 to-brown-600 text-grey border border-gray-600">
+
+  
+ <!-- Carousel Moving Text Section -->
+ <section class="relative py-4 bg-gradient-to-r from-[#4a3a2e] to-[#5a4d4d] text-gray-100 border-y-2 border-[#e6d7b9]">
+
   <div class="absolute inset-0 flex items-center justify-center overflow-hidden">
-    <div class="whitespace-nowrap animate-marquee text-4xl font-semibold text-center tracking-wider opacity-80" style="font-family: 'DM Serif Text', serif;">
+    <div class="whitespace-nowrap animate-marquee text-1xl font-semibold text-center tracking-wider opacity-80">
       <span class="inline-block mr-24 transform transition duration-300 hover:scale-105 hover:text-yellow-400">Custom Software for Your Business</span>
       <span class="inline-block mr-24 transform transition duration-300 hover:scale-105 hover:text-yellow-400">Transform Your Online Presence</span>
       <span class="inline-block mr-24 transform transition duration-300 hover:scale-105 hover:text-yellow-400">Innovative Solutions, No Jargon</span>
     </div>
   </div>
   <!-- Adding a subtle shadow to the background for more sophistication -->
-  <div class="absolute inset-0 bg-black opacity-20"></div>
+  <div class="absolute inset-0 bg-black opacity-10"></div>
 </section>
 
+  
+  <!-- Hero Section -->
+  <section class="relative py-32 px-6 md:px-12 bg-[#f9f6f2] overflow-hidden" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between relative z-10">
+      
+      <!-- Left Text Content -->
+      <div class="w-full md:w-1/2 text-center md:text-left" data-aos="fade-right" data-aos-delay="200">
+        <h2 class="text-5xl md:text-6xl font-[DM Serif Text] text-[#4a3a2e] mb-6 leading-tight tracking-wide">
+          Custom Software,<br class="hidden md:block" />
+          Built with Purpose
+        </h2>
+        <p class="text-black font-thin text-base md:text-lg mb-10 max-w-xl leading-relaxed tracking-wide">
+          Thoughtfully-crafted tools for small businesses.<br class="hidden sm:inline" />
+          Clean, functional, and beautifully simple.
+        </p>
+        
+        <a href="#services" 
+        class="inline-block px-8 py-3 border-2 border-[#e6d7b9] bg-[#4a3a2e] text-white  text-sm tracking-[0.6em] shadow-md hover:bg-[#2d2323] hover:border-[#2d2323] transition-all duration-300 uppercase">
+        Let’s Talk
+     </a>
+     
 
-<section class="py-24 px-6 flex flex-col md:flex-row items-center justify-between" data-aos="fade-up">
-  <!-- Left side: Text content -->
-  <div class="w-full md:w-1/2 text-center md:text-left" data-aos="fade-right" data-aos-delay="200">
-    <h1 class="text-4xl md:text-5xl font-semibold mb-6">Simple Software for your Small Business</h1>
-    <p class="max-w-2xl mx-auto mb-8 text-lg text-gray-600">I’m a local developer from the RGV, helping businesses with custom, time-saving tools. No jargon, just real solutions.</p>
-    <a href="#services" class="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition duration-300">
-      <i class="fas fa-comments mr-2"></i>Let’s Talk
-    </a>
+      </div>
+  
+<!-- Right Images Grid with Grayscale Hover Effect and Text -->
+<div class="w-full md:w-1/2 h-[500px] md:h-full mt-16 md:mt-0" data-aos="fade-left" data-aos-delay="400">
+  <div class="w-full h-full grid grid-cols-3 grid-rows-2 gap-0">
+    <div class="relative overflow-hidden group">
+      <img src="images/customerFocus.jpg" alt="Image 1"
+           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+        <span class="text-xl  font-serif">Customer Focus</span>
+      </div>
+    </div>
+    <div class="relative overflow-hidden group">
+      <img src="images/detail.jpg" alt="Image 2"
+           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+        <span class="text-xl  font-serif">Detail Oriented</span>
+      </div>
+    </div>
+    <div class="relative overflow-hidden group">
+      <img src="images/efficient.jpg" alt="Image 3"
+           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+        <span class="text-xl  font-serif">Efficiency</span>
+      </div>
+    </div>
+    <div class="relative overflow-hidden group">
+      <img src="images/innovation.jpg" alt="Image 4"
+           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+        <span class="text-xl  font-serif">Innovation</span>
+      </div>
+    </div>
+    <div class="relative overflow-hidden group">
+      <img src="images/reliable.jpg" alt="Image 5"
+           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+        <span class="text-xl  font-serif">Reliability</span>
+      </div>
+    </div>
+    <div class="relative overflow-hidden group">
+      <img src="images/teamwork.jpg" alt="Image 6"
+           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
+        <span class="text-xl  font-serif">Teamwork</span>
+      </div>
+    </div>
   </div>
+</div>
 
-  <!-- Right side: Image -->
-  <div class="w-full md:w-1/2 mt-12 md:mt-0" data-aos="fade-left" data-aos-delay="400">
-    <img src="pexels-goumbik-574071.jpg" alt="Software for Small Business" class="w-full h-full object-cover rounded-lg shadow-lg transition-transform duration-500 hover:scale-105">
-  </div>
-</section>
+
+
+      
+    </div>
+  </section>
+  
+
 
   
 
@@ -71,76 +131,83 @@
     </ul>
   </div>
 
-  <section id="services" class="py-16 px-6 bg-gray-50" data-aos="fade-up">
-    <h2 class="text-3xl font-semibold text-center mb-12">Services I Offer</h2>
-
-    <div class="max-w-3xl mx-auto space-y-10">
-      <div class="flex items-start gap-4" data-aos="zoom-in">
-        <i class="fas fa-cogs text-black text-2xl mt-1"></i>
+  <section id="services" class="py-20 px-6 bg-gray-50" data-aos="fade-up">
+    <h2 class="text-4xl font-bold text-center text-gray-900 mb-16 tracking-tight">Services I Offer</h2>
+  
+    <div class="max-w-4xl mx-auto space-y-12">
+      <div class="flex items-start gap-6 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in">
+        <div class="text-[#A3B18A] text-3xl"><i class="fas fa-cogs"></i></div>
         <div>
-          <h3 class="text-xl font-bold">Custom Software Development</h3>
-          <p class="text-gray-600">Tailored software solutions that simplify processes and improve efficiency for your business.</p>
+          <h3 class="text-2xl font-semibold text-[#4a3a2e] mb-2 tracking-wide">Custom Software Development</h3>
+          <p class="text-gray-600 leading-relaxed">Tailored software solutions that simplify processes and boost efficiency for your business, whether you're just starting or scaling up.</p>
         </div>
       </div>
-
-      <div class="flex items-start gap-4" data-aos="zoom-in" data-aos-delay="200">
-        <i class="fas fa-globe text-black text-2xl mt-1"></i>
+  
+      <div class="flex items-start gap-6 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="200">
+        <div class="text-[#9AB8D4] text-3xl"><i class="fas fa-globe"></i></div>
         <div>
-          <h3 class="text-xl font-bold">Website Development</h3>
-          <p class="text-gray-600">Build responsive and user-friendly websites that align with your brand and business goals.</p>
+          <h3 class="text-2xl font-semibold text-[#4a3a2e] mb-2 tracking-wide">Website Development</h3>
+          <p class="text-gray-600 leading-relaxed">Modern, responsive websites that reflect your brand and engage your audience — built with clarity and care.</p>
         </div>
       </div>
-
-      <div class="flex items-start gap-4" data-aos="zoom-in" data-aos-delay="400">
-        <i class="fas fa-tools text-black text-2xl mt-1"></i>
+  
+      <div class="flex items-start gap-6 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition duration-300" data-aos="zoom-in" data-aos-delay="400">
+        <div class="text-[#E0AFA0] text-3xl"><i class="fas fa-tools"></i></div>
         <div>
-          <h3 class="text-xl font-bold">Ongoing Support & Maintenance</h3>
-          <p class="text-gray-600">Ensure your software and websites continue running smoothly with regular updates and troubleshooting.</p>
+          <h3 class="text-2xl font-semibold text-[#4a3a2e] mb-2 tracking-wide">Ongoing Support & Maintenance</h3>
+          <p class="text-gray-600 leading-relaxed">Stay worry-free with regular updates, security checks, and hands-on troubleshooting whenever you need it.</p>
         </div>
       </div>
     </div>
 
-    <div class="bg-white border mt-12 text-gray-600 text-sm italic p-4 rounded-lg max-w-2xl mx-auto shadow-sm" data-aos="fade-in" data-aos-delay="600">
-      <i class="fas fa-calendar-check mr-2"></i>Need a booking system for a food cart, events, or services? I have a customizable template ready to go — check it out in the available templates section and just reach out!
+    <div class="bg-yellow-50 border border-yellow-200 mt-16 text-yellow-900 text-base italic p-5 rounded-xl max-w-3xl mx-auto shadow-sm flex items-start gap-3" data-aos="fade-in" data-aos-delay="600">
+      <i class="fas fa-calendar-check text-yellow-500 text-2xl mt-1"></i>
+      <p><strong>Need a booking system?</strong> I’ve got a ready-to-use template perfect for food carts, events, or service-based businesses. Check it out in the templates section — or just reach out!</p>
     </div>
-
-    <div class="text-center mt-8">
-      <a href="#contact" class="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition duration-300">
-        <i class="fas fa-phone-alt mr-2"></i>Contact Me
+  
+    <div class="text-center mt-12">
+      <a href="#contact" class="inline-block px-8 py-4 bg-black text-white text-lg font-semibold rounded-xl hover:bg-gray-800 transition duration-300">
+        <i class="fas fa-phone-alt mr-2"></i>Let’s Chat
       </a>
     </div>
+  
+  
   </section>
+  
+  
+   
+    
 
-  <section id="templates" class="py-16 px-6 bg-white" data-aos="fade-up">
-    <h2 class="text-3xl font-semibold text-center mb-12">Available Templates</h2>
+  <section id="templates" class="py-24 px-6 bg-gradient-to-r from-white via-gray-50 to-gray-100" data-aos="fade-up">
+    <h2 class="text-4xl font-semibold text-center text-gray-900 mb-16">Available Templates</h2>
 
-    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
-      <a href="https://albert-881.github.io/SampleBookingTemplate/" target="_blank"
-         class="group block bg-gray-100 rounded-xl overflow-hidden shadow-md hover:shadow-lg transform hover:scale-105 transition duration-300"
-         data-aos="fade-up" data-aos-delay="100">
-        <img src="sstemplate.png" alt="Booking Template Preview" class="w-full h-48 object-contain bg-gray-200">
-        <div class="p-4">
-          <h3 class="text-xl font-bold text-black mb-2 group-hover:text-indigo-500 transition-colors duration-300">
-            Booking Template (Click to See It in Action)
-          </h3>
-          <p class="text-gray-600 text-sm">
-            Transform how your clients book with a seamless, mobile-friendly system. Effortless scheduling, instant confirmations, and an easy-to-manage dashboard—all in one powerful package.
-          </p>
-        </div>
-      </a>
+    <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+        <a href="https://albert-881.github.io/SampleBookingTemplate/" target="_blank"
+           class="group block bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-500 ease-in-out hover:bg-indigo-50"
+           data-aos="fade-up" data-aos-delay="100">
+            <img src="sstemplate.png" alt="Booking Template Preview" class="w-full h-56 object-cover bg-gray-200 rounded-t-xl">
+            <div class="p-6">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4 group-hover:text-indigo-600 transition-colors duration-300">
+                    Booking Template (Click to See It in Action)
+                </h3>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                    Transform how your clients book with a seamless, mobile-friendly system. Effortless scheduling, instant confirmations, and an easy-to-manage dashboard—all in one powerful package.
+                </p>
+            </div>
+        </a>
     </div>
 
-    <div class="mt-16 text-center max-w-3xl mx-auto">
-      <h3 class="text-3xl font-semibold mb-4" data-aos="fade-up">How Templates Work</h3>
-      <ol class="space-y-6 mt-8 text-left text-gray-700" data-aos="fade-up" data-aos-delay="200">
-        <li><strong>1.</strong> Pick a template that fits your business.</li>
-        <li><strong>2.</strong> I’ll customize it with your branding and content.</li>
-        <li><strong>3.</strong> Get a fully functional, mobile-ready system.</li>
-        <li><strong>4.</strong> Need custom features? We’ll discuss options and pricing.</li>
-      </ol>
-      <p class="mt-6 text-gray-600">For fully custom systems, additional time and cost may apply based on your needs. Let’s build something unique!</p>
+    <div class="mt-20 text-center max-w-3xl mx-auto">
+        <h3 class="text-3xl font-semibold text-gray-900 mb-6" data-aos="fade-up">How Templates Work</h3>
+        <ol class="space-y-8 mt-8 text-left text-gray-700 leading-relaxed text-lg" data-aos="fade-up" data-aos-delay="200">
+            <li><strong class="font-semibold">1.</strong> Choose the template that best suits your business needs.</li>
+            <li><strong class="font-semibold">2.</strong> I’ll customize it with your branding and content for a perfect fit.</li>
+            <li><strong class="font-semibold">3.</strong> Receive a fully functional, mobile-ready, and easy-to-manage system.</li>
+            <li><strong class="font-semibold">4.</strong> Have specific needs? Let’s discuss custom features and pricing options.</li>
+        </ol>
+        <p class="mt-8 text-gray-600 text-lg">For fully custom systems, additional time and cost may apply based on your requirements. Let's create something tailored just for you!</p>
     </div>
-  </section>
+</section>
 
   <section id="about" class="py-16 px-6 bg-gray-50" data-aos="fade-up">
     <h2 class="text-3xl font-semibold text-center mb-6">About Me</h2>
@@ -153,14 +220,18 @@
   <section id="contact" class="py-16 px-6 bg-white" data-aos="fade-up">
     <h2 class="text-3xl font-semibold text-center mb-6">Contact Me</h2>
     <form action="https://formspree.io/f/xovervqo" method="POST" class="max-w-xl mx-auto space-y-4">
-      <input type="text" placeholder="Your Name" class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-black">
-      <input type="email" placeholder="Your Email" class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-black">
-      <textarea placeholder="Your Message" rows="5" class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-black"></textarea>
+      <input type="text" name="name" placeholder="Your Name" required class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-black">
+      
+      <input type="email" name="email" placeholder="Your Email" required class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-black">
+      
+      <textarea name="message" placeholder="Your Message" rows="5" required class="w-full border border-gray-300 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-black"></textarea>
+      
       <button type="submit" class="w-full bg-black text-white font-semibold py-3 rounded hover:bg-gray-800 transition duration-300">
         <i class="fas fa-paper-plane mr-2"></i>Send Message
       </button>
     </form>
   </section>
+  
 
   <footer class="text-center py-6 bg-gray-100 text-gray-500 text-sm">
     &copy; 2025 The Code Smith RGV. All rights reserved.
@@ -169,10 +240,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
   <style>
     .animate-marquee {
-      animation: marquee 18s linear infinite;
+      animation: marquee 25s linear infinite;
+      
+    font-family: Roboto Condensed,sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+
+
     }
     @keyframes marquee {
-      0% { transform: translateX(100%); }
+      0% { transform: translateX(80%); }
       100% { transform: translateX(-100%); }
     }
     /* Add this to your global CSS file or within a <style> block */
