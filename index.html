@@ -22,29 +22,29 @@
   </script>
 </head>
 <body class="font-[DM Serif Text] bg-[#f9f6f2] text-[#3a2e2e] text-lg leading-relaxed">
-
   <header class="w-full py-6 px-6 text-center shadow-lg border-b border-[#e0dcd4] bg-[#f9f6f2] sticky top-0 z-50">
-  <div class="flex justify-between items-center max-w-screen-xl mx-auto">
-    <!-- Logo and Branding -->
-    <a href="/" class="text-4xl md:text-5xl font-[DM Serif Text] tracking-wider text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">
-      The Code Smith RGV
-    </a>
-    
-    <!-- Navigation -->
-    <nav class="space-x-8">
-      <a href="#services" class="text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Services</a>
-      <a href="#portfolio" class="text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Portfolio</a>
-      <a href="#contact" class="text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Contact</a>
-    </nav>
-
-    <!-- Mobile Menu Icon (optional) -->
-    <div class="lg:hidden flex items-center">
-      <button class="text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">
-        <i class="fas fa-bars text-2xl"></i>
-      </button>
+    <div class="flex justify-between items-center max-w-screen-xl mx-auto">
+      <!-- Logo -->
+      <a href="/" class="text-4xl md:text-5xl font-[DM Serif Text] tracking-wider text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">
+        The Code Smith RGV
+      </a>
+  
+      <!-- Hamburger Icon (Mobile) -->
+      <div class="lg:hidden flex items-center">
+        <button id="menu-toggle" class="text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+  
+      <!-- Navigation -->
+      <nav id="nav-menu" class="hidden lg:flex lg:space-x-8 absolute lg:static top-full left-0 w-full lg:w-auto bg-[#f9f6f2] lg:bg-transparent text-center lg:text-left shadow-md lg:shadow-none">
+        <a href="#services" class="block py-2 px-4 text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Services</a>
+        <a href="#portfolio" class="block py-2 px-4 text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Portfolio</a>
+        <a href="#contact" class="block py-2 px-4 text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Contact</a>
+      </nav>
     </div>
-  </div>
-</header>
+  </header>
+  
 
   
  <!-- Carousel Moving Text Section -->
@@ -85,53 +85,7 @@
 
       </div>
   
-<!-- Right Images Grid with Grayscale Hover Effect and Text -->
-<div class="w-full md:w-1/2 h-[500px] md:h-full mt-16 md:mt-0" data-aos="fade-left" data-aos-delay="400">
-  <div class="w-full h-full grid grid-cols-3 grid-rows-2 gap-0">
-    <div class="relative overflow-hidden group">
-      <img src="images/customerFocus.jpg" alt="Image 1"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Customer Focus</span>
-      </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/detail.jpg" alt="Image 2"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Detail Oriented</span>
-      </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/efficient.jpg" alt="Image 3"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Efficiency</span>
-      </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/innovation.jpg" alt="Image 4"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Innovation</span>
-      </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/reliable.jpg" alt="Image 5"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Reliability</span>
-      </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/teamwork.jpg" alt="Image 6"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Teamwork</span>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 
@@ -278,5 +232,14 @@
   font-family: 'Special Gothic', sans-serif;
     }
   </style>
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+  
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('hidden');
+    });
+  </script>
+  
 </body>
 </html>
