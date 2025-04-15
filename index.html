@@ -10,6 +10,8 @@
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -73,7 +75,7 @@
           Custom Software,<br class="hidden md:block" />
           Built with Purpose
         </h2>
-        <p class="text-black font-thin text-base md:text-lg mb-10 max-w-xl leading-relaxed tracking-wide">
+        <p class="text-black font-['Roboto'] font-thin text-base md:text-lg mb-10 max-w-xl leading-relaxed tracking-wide">
           Thoughtfully-crafted tools for small businesses.<br class="hidden sm:inline" />
           Clean, functional, and beautifully simple.
         </p>
@@ -85,55 +87,97 @@
      
 
       </div>
-  
-<!-- Right Images Grid with Grayscale Hover Effect and Text -->
-<div class="w-full md:w-1/2 h-[500px] md:h-full mt-16 md:mt-0" data-aos="fade-left" data-aos-delay="400">
-  <div class="w-full h-full grid grid-cols-3 grid-rows-2 gap-0">
-    <div class="relative overflow-hidden group">
-      <img src="images/customerFocus.jpg" alt="Image 1"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Customer Focus</span>
+<!-- My Values Title -->
+<div class="w-full md:w-1/2 mt-16 md:mt-0" data-aos="fade-left" data-aos-delay="400">
+  <h2 class="text-3xl text-[#4a3a2e] mb-6 font-['Roboto'] font-thin text-center">Values</h2>
+
+
+
+
+  <!-- Right Images Grid with Grayscale Hover Effect and Text -->
+  <div class="h-[700px] md:h-full">
+    <div class="w-full h-full grid grid-cols-3 grid-rows-2 gap-2">
+      <!-- Repeatable Image Containers -->
+      <div class="relative overflow-hidden group">
+        <img id="image1" src="images/customerFocus.jpg" alt="Image 1"
+             class="w-full h-full object-cover transition duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+        <div id="text1" class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+          <span class="text-xl font-serif">Customer Focus</span>
+        </div>
       </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/detail.jpg" alt="Image 2"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Detail Oriented</span>
+      <div class="relative overflow-hidden group">
+        <img id="image2" src="images/detail.jpg" alt="Image 2"
+             class="w-full h-full object-cover transition duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+        <div id="text2" class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+          <span class="text-xl font-serif">Detail Oriented</span>
+        </div>
       </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/efficient.jpg" alt="Image 3"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Efficiency</span>
+      <div class="relative overflow-hidden group">
+        <img id="image3" src="images/efficient.jpg" alt="Image 3"
+             class="w-full h-full object-cover transition duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+        <div id="text3" class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+          <span class="text-xl font-serif">Efficiency</span>
+        </div>
       </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/innovation.jpg" alt="Image 4"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Innovation</span>
+      <div class="relative overflow-hidden group">
+        <img id="image4" src="images/innovation.jpg" alt="Image 4"
+             class="w-full h-full object-cover transition duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+        <div id="text4" class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+          <span class="text-xl font-serif">Innovation</span>
+        </div>
       </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/reliable.jpg" alt="Image 5"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Reliability</span>
+      <div class="relative overflow-hidden group">
+        <img id="image5" src="images/reliable.jpg" alt="Image 5"
+             class="w-full h-full object-cover transition duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+        <div id="text5" class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+          <span class="text-xl font-serif">Reliability</span>
+        </div>
       </div>
-    </div>
-    <div class="relative overflow-hidden group">
-      <img src="images/teamwork.jpg" alt="Image 6"
-           class="w-full h-full object-cover transition-all duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
-      <div class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50">
-        <span class="text-xl  font-serif">Teamwork</span>
+      <div class="relative overflow-hidden group">
+        <img id="image6" src="images/teamwork.jpg" alt="Image 6"
+             class="w-full h-full object-cover transition duration-700 filter grayscale group-hover:filter-none group-hover:scale-105" />
+        <div id="text6" class="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
+          <span class="text-xl font-serif">Teamwork</span>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
+<script>
+  const images = [
+    { id: 'image1', textId: 'text1', src: 'images/customerFocus.jpg', alt: 'Customer Focus', text: 'Customer Focus' },
+    { id: 'image2', textId: 'text2', src: 'images/detail.jpg', alt: 'Detail Oriented', text: 'Detail Oriented' },
+    { id: 'image3', textId: 'text3', src: 'images/efficient.jpg', alt: 'Efficiency', text: 'Efficiency' },
+    { id: 'image4', textId: 'text4', src: 'images/innovation.jpg', alt: 'Innovation', text: 'Innovation' },
+    { id: 'image5', textId: 'text5', src: 'images/reliable.jpg', alt: 'Reliability', text: 'Reliability' },
+    { id: 'image6', textId: 'text6', src: 'images/teamwork.jpg', alt: 'Teamwork', text: 'Teamwork' }
+  ];
+
+  let index = 0;
+
+  function updateImageAndText() {
+    // Reset all images and texts to grayscale and hidden
+    images.forEach((image) => {
+      document.getElementById(image.id).classList.add('grayscale');
+      document.getElementById(image.textId).classList.remove('opacity-100');
+    });
+
+    // Update the current image and text
+    document.getElementById(images[index].id).classList.remove('grayscale');
+    document.getElementById(images[index].textId).classList.add('opacity-100');
+
+    // Move to the next image
+    index = (index + 1) % images.length;
+  }
+
+  // Set interval to loop through images and text every 3 seconds
+  setInterval(updateImageAndText, 2000);
+
+  // Initialize by showing the first image and text
+  updateImageAndText();
+</script>
 
 
       
