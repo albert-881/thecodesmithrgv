@@ -27,30 +27,29 @@
 
 
   <header class="w-full py-6 px-6 text-center shadow-lg border-b bg-white sticky top-0 z-50">
-
-    <div class="flex justify-between items-center max-w-screen-xl mx-auto">
+    <div class="flex justify-between items-center max-w-screen-xl mx-auto py-4 px-6 relative">
       <!-- Logo -->
-    <a href="/" class="block">
-      <img src="images/Code Smith.png" alt="The Code Smith RGV Logo" class="h-10 md:h-12 object-contain">
-    </a>
-
-  
-      <!-- Hamburger Icon (Mobile) -->
-<div class="lg:hidden flex items-center">
-  <button id="menu-toggle" class="text-black hover:text-gray-300 transition-all duration-300">
-    <i class="fas fa-bars text-2xl"></i>
-  </button>
-</div>
-
-  
-      <!-- Navigation -->
-      <nav id="nav-menu" class="hidden lg:flex lg:space-x-8 absolute lg:static top-full left-0 w-full lg:w-auto bg-[#f9f6f2] lg:bg-transparent text-center lg:text-left shadow-md lg:shadow-none">
+      <a href="/" class="block">
+        <img src="images/Code Smith.png" alt="The Code Smith RGV Logo" class="h-10 md:h-12 object-contain">
+      </a>
+    
+      <!-- Hamburger Checkbox Toggle -->
+      <input type="checkbox" id="menu-toggle" class="peer hidden" />
+      <label for="menu-toggle" class="lg:hidden flex items-center cursor-pointer">
+        <i class="fas fa-bars text-2xl text-black hover:text-gray-300 transition-all duration-300"></i>
+      </label>
+    
+      <!-- Navigation Menu -->
+      <nav
+        class="peer-checked:max-h-96 max-h-0 lg:max-h-full transition-all duration-500 ease-in-out overflow-hidden lg:overflow-visible lg:flex lg:space-x-8 absolute lg:static top-full left-0 w-full lg:w-auto bg-white lg:bg-transparent text-center lg:text-left shadow-md lg:shadow-none"
+      >
         <a href="#services" class="block py-2 px-4 text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Services</a>
         <a href="#templates" class="block py-2 px-4 text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Templates</a>
         <a href="#about" class="block py-2 px-4 text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">About me</a>
         <a href="#contact" class="block py-2 px-4 text-lg text-[#3a2e2e] hover:text-[#2d2323] transition-all duration-300">Contact</a>
       </nav>
     </div>
+    
   </header>
   
 
